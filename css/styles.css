@@ -20,6 +20,7 @@
     width: inherit;
     left: 50%;
     transform: translateX(-50%);
+    z-index: 1;
  }
 
  .app-logo {
@@ -49,9 +50,43 @@
  }
 
 /* section1 */
-section {
-    height: 1000px;
+.app-section1 {
+    position: relative;
 }
+
+.app-section1-order {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.app-section1-cover {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.app-section1-header {
+    color: #FFF;
+    text-shadow: 0px 6px 4px #372D23;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 56px;
+    margin-bottom: 32px;
+}
+
+.app-section1-button {
+    padding: 12px 38px;
+    border: 3px solid #FCC21B;
+    box-shadow: 0px 4px 4px 0px #372D23;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 28px;
+    background-color: transparent;
+}
+
 /* section2 */
 
 
